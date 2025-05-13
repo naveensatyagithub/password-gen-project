@@ -1,0 +1,125 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Main Container */
+  .container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  /* Title */
+  h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  /* Label & Input */
+  label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #8a2be2;
+  }
+  
+  /* Checkbox Options */
+  .options label {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .options input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    accent-color: #8a2be2;
+  }
+  
+  /* Button Styling */
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background: linear-gradient(to right, #8a2be2, #da70d6);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #da70d6, #8a2be2);
+  }
+  
+  /* Password Output Box */
+  .password-box {
+    margin-top: 25px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    border: 2px dashed #ccc;
+    color: #222;
+    font-weight: bold;
+    font-size: 16px;
+    word-wrap: break-word;
+    min-height: 48px;
+    transition: background 0.3s;
+  }
+  
+  .password-box:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 480px) {
+    .container {
+      padding: 30px 20px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    button {
+      padding: 12px;
+    }
+  }
+  
